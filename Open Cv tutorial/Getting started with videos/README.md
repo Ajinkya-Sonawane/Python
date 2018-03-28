@@ -17,6 +17,7 @@ __Basic functions:__
 		<li>After that, you can capture frame-by-frame.</li>
 		<li>But at the end, don’t forget to release the capture</li>
 	</ul>
+	<hr>
 	<li>cv2.VideoWriter()</li>
 	<ul>
 		<li>Specify</li>
