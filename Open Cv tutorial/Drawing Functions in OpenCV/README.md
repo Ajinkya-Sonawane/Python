@@ -14,9 +14,10 @@ By default, it is 8-connected. cv2.LINE_AA gives anti-aliased line which looks g
 </ol>
 
 ## Basic Functions:
-	<ol>
-		<li>cv2.line()</li>
-		<li>cv2.rectangle()</li>
-		<li>cv2.circle()</li>
-		<li>cv2.ellipse()</li>
-	</ol>
+<ol>
+	<li>cv2.line()</li>
+	<li>cv2.rectangle ()</li>
+	<li>cv2.circle()</li>
+	<li>cv2.ellipse()</li>
+	<li>cv2.putText() </li>
+</ol>
