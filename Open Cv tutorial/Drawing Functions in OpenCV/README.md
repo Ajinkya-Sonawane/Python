@@ -21,3 +21,7 @@ By default, it is 8-connected. cv2.LINE_AA gives anti-aliased line which looks g
 	<li>cv2.ellipse()</li>
 	<li>cv2.putText() </li>
 </ol>
+
+## Result :
+
+<img src='result.png' height=400 widht=400>
