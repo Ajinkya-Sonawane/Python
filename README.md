@@ -1,2 +1,2 @@
 # Python
-Python from Basics.
+All about Python.
