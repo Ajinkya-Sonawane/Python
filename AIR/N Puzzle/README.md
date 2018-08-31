@@ -24,5 +24,4 @@
     * Heuristic score is different for each question as explained above heuristic needs to be admissible for each type of problem.
     * In our problem the h-score is the count of the misplaced elements in the current state that differ from the goal state.<br>
 <hr>
-<center><img src="puzzle1.jpg"></center><br>
    <center><img src="puzzle2.jpg"></center>
