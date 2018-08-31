@@ -1,8 +1,8 @@
 # N Puzzle Problem using A* Algorithm
 
 1. <b>What is N Puzzle Problem ?</b> <br>
-    * N-Puzzle or sliding puzzle is a popular puzzle that consists of N tiles where N can be 8, 15, 24 and so on. The puzzle is divided into v(N+1) rows and v(N+1) columns eg. 15-Puzzle will have 4 rows and 4 columns, an 8-Puzzle will have 3 rows and 3 columns and so on. The puzzle consists of one empty space where the tiles can be moved and thus the puzzle is solved when a particular goal pattern is formed like the following is one of the variant goal pattern.
-    <img src="npuzzle.png">
+    * N-Puzzle or sliding puzzle is a popular puzzle that consists of N tiles where N can be 8, 15, 24 and so on. The puzzle is divided into v(N+1) rows and v(N+1) columns eg. 15-Puzzle will have 4 rows and 4 columns, an 8-Puzzle will have 3 rows and 3 columns and so on. The puzzle consists of one empty space where the tiles can be moved and thus the puzzle is solved when a particular goal pattern is formed like the following is one of the variant goal pattern.<br>
+    <center><img src="npuzzle.png"></center>
 
 2. <b>What is A* Algorithm ?</b> <br>
     * A* is a computer algorithm that is widely used in pathfinding and graph traversal, the process of plotting an efficiently traversable path between multiple points, called nodes. Noted for its performance and accuracy, it enjoys widespread use.
@@ -24,5 +24,5 @@
     * Heuristic score is different for each question as explained above heuristic needs to be admissible for each type of problem.
     * In our problem the h-score is the count of the misplaced elements in the current state that differ from the goal state.<br>
 <hr>
-<img src="puzzle1.png"><br>
-<img src="puzzle2.png">
+<center><img src="puzzle1.jpg"></center><br>
+   <center><img src="puzzle2.jpg"></center>
