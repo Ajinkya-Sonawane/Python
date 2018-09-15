@@ -1,7 +1,7 @@
 # N Puzzle Problem using A* Algorithm
 
 1. <b>What is N Puzzle Problem ?</b> <br>
-    * N-Puzzle or sliding puzzle is a popular puzzle that consists of N tiles where N can be 8, 15, 24 and so on. The puzzle is divided into v(N+1) rows and v(N+1) columns eg. 15-Puzzle will have 4 rows and 4 columns, an 8-Puzzle will have 3 rows and 3 columns and so on. The puzzle consists of one empty space where the tiles can be moved and thus the puzzle is solved when a particular goal pattern is formed like the following is one of the variant goal pattern.<br>
+    * N-Puzzle or sliding puzzle is a popular puzzle that consists of N tiles where N can be 8, 15, 24 and so on. The puzzle is divided into sqrt(N+1) rows and sqrt(N+1) columns eg. 15-Puzzle will have 4 rows and 4 columns, an 8-Puzzle will have 3 rows and 3 columns and so on. The puzzle consists of one empty space where the tiles can be moved and thus the puzzle is solved when a particular goal pattern is formed like the following is one of the variant goal pattern.<br>
     <center><img src="npuzzle.png"></center>
 
 2. <b>What is A* Algorithm ?</b> <br>
