@@ -1,2 +1,2 @@
 # Python
-All about Python.
+All I do in Python.
