@@ -1,10 +1,9 @@
 import tweepy
 
-consumerKey = "n5PBzWyLAcf4E2NDHr4uRPHoa"
-consumerSecret = "kCBVExRamJz0bga0vSNwu6JP7fnsHDY8zcKvW6fsrar8E8pks7"
-accessToken = "2335422042-SPLxm09IZFhtwUBnAZqajQgbhwsj1P7WLuQrvuz"
-accessTokenSecret = "kpY77URgsY7RcGnqEkPXC1KcxlIjl5YVLms5MUNq2xBuF"
-
+consumerKey = "YOUR_CONSUMER_KEY"
+consumerSecret = "YOUR_CONSUMER_SECRET_KEY"
+accessToken = "YOUR_ACCESS_TOKEN"
+accessTokenSecret = "YOUR_ACCESS_TOKEN_SECRET"
 
 class TwitterStreamListener(tweepy.streaming.StreamListener):
     ''' Handles data received from the stream. '''
@@ -27,4 +26,4 @@ if __name__ == '__main__':
     auth = tweepy.OAuthHandler(consumerKey, consumerSecret)
     auth.set_access_token(accessToken, accessTokenSecret)
     stream = tweepy.streaming.Stream(auth, listener)
-    stream.filter(track=["#WWIII"])
+    stream.filter(track=["#Python"])
