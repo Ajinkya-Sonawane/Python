@@ -95,10 +95,7 @@ class Puzzle:
         print("\n\n")
         while True:
             cur = self.open[0]
-            print("")
-            print("  | ")
-            print("  | ")
-            print(" \\\'/ \n")
+
             for i in cur.data:
                 for j in i:
                     print(j,end=" ")
@@ -111,6 +108,10 @@ class Puzzle:
                 self.open.append(i)
             self.closed.append(cur)
             del self.open[0]
+            print("")
+            print("  | ")
+            print("  | ")
+            print(" \\\'/ \n")
 
             """ sort the opne list based on f value """
             self.open.sort(key = lambda x:x.fval,reverse=False)
