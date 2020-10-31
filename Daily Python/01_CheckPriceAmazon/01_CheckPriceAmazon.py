@@ -19,7 +19,7 @@ def alert_me(URL,title, price):
     server.starttls()
     server.ehlo()
 
-    server.login('sonawaneajinks@gmail.com','engisilipvvlaxgz')
+    server.login('YOUR_GMAIL_ADDRESS','YOUR_GOOGLE_APP_PASSWORD')
     subject = 'Price fell down for '+title
     body = 'Buy it now here: '+URL
     msg = f"Subject:{subject}\n\n{body}"
