@@ -87,3 +87,6 @@ ENV/
 
 # Rope project settings
 .ropeproject
+# Add two numbers
+Def add(a,b)
+c=a+b
